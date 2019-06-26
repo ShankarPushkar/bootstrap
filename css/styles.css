@@ -1,0 +1,115 @@
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+#features{
+   text-align: center;
+}
+#features img{
+  width: 100px;
+  height: 100px;
+  align-content: center;
+}
+.carousel-caption{
+   font-family: 'Times New Roman', Times, serif;
+}
+
+
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+body{
+   -webkit-font-smoothing:antialiased;
+   text-rendering: optimizeLegibility;
+}
+.well{
+   margin-top: 10px;
+   text-align: center;
+}
+.well .page-header{
+   margin-top: 10px;
+}
+.well .page-header h2{
+   margin-top: 0px;
+}
+
+
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+   .navi{
+      padding-top: 20px;
+   }
+   
+   
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+#myCarousel .item { 
+   margin-top: 50px;
+   height: 600px;
+}
+.hero{
+   width: 100%;
+   height: auto;
+   max-height: 700px;
+}
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+.panel{
+ 
+   margin-top: 10px;
+
+}
+.social{
+   padding-top: 80px;
+   padding-left: 20px;
+}
+   .fa {
+  margin-right: 5px;
+  padding-top: 10px;
+  font-size: 30px;
+  height: 50px;
+  width: 50px;
+  text-align:center;
+  align-content: center;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+
+.form-control{
+ padding:0px 30px;
+ max-width: 180px;
+}
+footer{
+   text-align: center;
+}
+footer{
+   background: black;
+   color : white;
+   margin-top: 20px;
+   padding: 20px;
+}
