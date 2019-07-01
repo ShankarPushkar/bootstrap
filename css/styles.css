@@ -38,7 +38,16 @@ body{
 /* --------------------------------------
    Navbar
    -------------------------------------- */
+   .navwhole {
+      background-color: black;
+      font-size: 20px;
+   }
+   .navwhole h4 {
+      background-color: black;
+      font-size: 18px;
+   }
    .navi{
+      
       padding-top: 20px;
    }
    
@@ -58,6 +67,12 @@ body{
 /* --------------------------------------
    Global Styles
    -------------------------------------- */
+
+
+.modal-dialog{
+   text-align: center;
+   }
+
 .panel{
  
    margin-top: 10px;
@@ -102,8 +117,15 @@ body{
 
 .form-control{
  padding:0px 30px;
- max-width: 180px;
-}
+ text-align: center;
+ 
+ }
+ .modal-body{
+    padding-bottom: 0px;
+ }
+ #inputAddress{
+    text-align: left;
+ }
 footer{
    text-align: center;
 }
