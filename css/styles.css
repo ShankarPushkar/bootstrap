@@ -40,18 +40,19 @@ body{
    -------------------------------------- */
    .navwhole {
       background-color: black;
-      font-size: 20px;
+      font-size: 18px;
+      padding-left: 10px;
    }
    .navwhole h4 {
-      background-color: black;
-      font-size: 18px;
-   }
-   .navi{
-      
+         font-size: 18  px;
+         padding-top: 5px;   }
+   
+   .navi{      
       padding-top: 20px;
+         }  
+   .searchbtn{
+     margin: 6px;
    }
-   
-   
 /* --------------------------------------
    Carousel
    -------------------------------------- */
@@ -82,7 +83,7 @@ body{
    padding-top: 80px;
    padding-left: 20px;
 }
-   .fa {
+.fa {
   margin-right: 5px;
   padding-top: 10px;
   font-size: 30px;
@@ -118,9 +119,9 @@ body{
 .form-control{
  padding:0px 30px;
  text-align: center;
- 
- }
- .modal-body{
+  }
+
+.modal-body{
     padding-bottom: 0px;
  }
  #inputAddress{
