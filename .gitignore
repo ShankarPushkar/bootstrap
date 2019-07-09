@@ -4,6 +4,8 @@
 /build/www/**
 /src/test/javascript/coverage/
 /src/test/javascript/PhantomJS*/
+.DS_Store
+404.html
 ######################
 # Node
 ######################
